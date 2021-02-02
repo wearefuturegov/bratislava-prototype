@@ -1,11 +1,11 @@
 
-import Email from './pages/Email';
+import Navigation from './../components/Navigation';
 
 
 function App() {
   return (
     <>
-      app homagepage
+      <Navigation /> 
     </>
   );
 }

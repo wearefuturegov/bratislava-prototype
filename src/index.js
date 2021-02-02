@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import i18next from "i18next"
 import { I18nextProvider } from  "react-i18next";
@@ -35,14 +34,14 @@ GOVUKFrontend.initAll()
 ReactDOM.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-    <SkipToMainContent />
-    <div className="govuk-width-container ">
-    <LanguagePicker />
-      <main className="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
-          <Router />
-      </main>
-    </div>
-  </I18nextProvider>
+      <SkipToMainContent />
+      <LanguagePicker />
+        <div className="govuk-width-container ">
+          <main className="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
+              <Router />
+          </main>
+        </div>
+    </I18nextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

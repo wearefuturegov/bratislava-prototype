@@ -1,11 +1,13 @@
-import App from "./../App";
+import App from "../pages/App";
 import Email from "./../pages/Email";
 
 const routes = [{
+    titleKey: "navigation.home",
     path: "/",
     exact: true,
     component: App
 }, {
+    titleKey: "navigation.2-2",
     path: "/email",
     exact: true,
     component: Email

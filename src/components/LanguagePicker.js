@@ -4,7 +4,8 @@ import {useTranslation} from "react-i18next";
 
 function App()
 {
-    const [t, i18n] = useTranslation('common');
+    const [i18n] = useTranslation('common');
+
 
     const isCurrentLang = (lang) => {
         if(i18n.language === lang) return true

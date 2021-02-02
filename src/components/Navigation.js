@@ -5,13 +5,9 @@ import {useTranslation} from "react-i18next";
 import { Link } from "react-router-dom";
 import routes from './../data/routes'
 
-// govuk-header__navigation-item--active
 function NavigationComponent()
 {
-    // return (
-    //     <p>hello</p>
-    // );  
-    const [t, i18n] = useTranslation('common');
+    const [t] = useTranslation('common');
     return (
         <nav>
             <ul id="navigation" className="govuk-list" aria-label="Navigation menu">
@@ -45,17 +41,3 @@ export default Navigation;
 // "3": "P3 Payment Email",
 // "3-4": "P3 Bill with payment"
 
-// {/* <Link to="/tacos">Tacos</Link> */}
-
-/* 
-            {routes.map((route, i) => (
-            <Route key={i} {...route} />
-        ))} */
-
-
-
-    //     <li key={i} className="govuk-header__navigation-item ">
-    //     <a className="govuk-header__link" href="#1">
-    //     {t(route.titleKey)}
-    //     </a>
-    // </li>

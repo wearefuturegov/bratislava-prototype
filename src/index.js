@@ -8,7 +8,6 @@ import './styles/unbranded.scss';
 
 import SkipToMainContent from './components/SkipToMainContent';
 import LanguagePicker from './components/LanguagePicker';
-import Navigation from './components/Navigation';
 import Router from "./Router";
 
 

@@ -1,5 +1,20 @@
 {
-    "welcome": {
-        "title": "Vitajte v {{framework}}"
+    "helper": {
+        "skipToMain": "Preskočiť na hlavný obsah",
+        "currencyIcon": "€"
+    },
+    "email": {
+        "title": "Prekalkulácia dane z nehnuteľnosti",
+        "paragraphLede": "S radosťou Vám oznamujeme, že služba dane z nehnuteľnosti prešla veľkou transformáciou a Vy ste jeden z prvých, ktorý ju môže otestovať. ",
+        "paragraphTwo": "Oproti minulým rokom už nie je potrebné, aby ste vypisovali daňové priznanie osobne, ale vyplníme ho za Vás pomocou dát z katastra a informačných systémov mesta.",
+        "paragraphThree" : "Aby ste vedeli s akou sumou predbežne počítať, posielame Vám prekalkuláciu dane z nehnuteľnosti. Ak ste v prekalkulácií zaznamenali akékoľvek nesprávne údaje, môžete ich zmeniť na adrese v priloženom linku.",
+        "cta" : {
+            "title": "Prekalkulácia dane z nehnuteľnosti",
+            "description": "Nárok na platenie dane z nehnuteľnosti Vám vznikol nadobudnutím nehnuteľnosti. Jedná sa o prekalkuláciu dane, oficiálna výmera dane z nehnuteľnosti Vám bude uložená do elektronickej schránky mesta Bratislava v máji 2021.",
+            "estimatedAmount": "Predpokladaná suma",
+            "moreInfo": "Údaje prekalkulácie dane môžete skontrolovať a upraviť na nasledujúcom odkaze:",
+            "checkButton": "Skontrolovať údaje"
+        },
+        "smallPrint": "Ak predpokladaná suma sedí a nepotrebujete meniť údaje na výmere, považujte vec za vyriešenú. "
     }
 }

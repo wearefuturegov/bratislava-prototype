@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import i18next from "i18next"
 import { I18nextProvider } from  "react-i18next";
+import GOVUKFrontend from "govuk-frontend/govuk/all.js";
+import './styles/unbranded.scss';
+
+import SkipToMainContent from './components/SkipToMainContent';
+import LanguagePicker from './components/LanguagePicker';
+import Navigation from './components/Navigation';
+import Router from "./Router";
 
 
 import common_sk from "./translations/sk/common.json";
@@ -23,11 +29,20 @@ i18next.init({
   },
 });
 
+
+GOVUKFrontend.initAll()
+
 ReactDOM.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-        <App/>
-    </I18nextProvider>
+    <SkipToMainContent />
+    <div className="govuk-width-container ">
+    <LanguagePicker />
+      <main className="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
+          <Router />
+      </main>
+    </div>
+  </I18nextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

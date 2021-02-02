@@ -1,3 +1,6 @@
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,5 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+
+includes everything from [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/#gov-uk-frontend).
+
+You can copy and paste code samples straight from the [GOV.UK design system](https://design-system.service.gov.uk/).
 
 https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next

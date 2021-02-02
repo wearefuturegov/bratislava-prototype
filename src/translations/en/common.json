@@ -1,5 +1,20 @@
 {
-    "welcome": {
-        "title": "Welcome to {{framework}}"
+    "helper": {
+        "skipToMain": "Skip to main content",
+        "currencyIcon": "€"
+    },
+    "email": {
+        "title": "Pre-calculation of the real estate tax",
+        "paragraphLede": "We are happy to announce to you, that real estate tax went through a big transformation and you are one of the first residents, who can test it.",
+        "paragraphTwo": "In comparison to last years, you do not need to fill out a tax form in a personal way. We will fill it out instead of you with the data from the land registry and information systems of the city.",
+        "paragraphThree" : "To let you know how much you will pay, we are sending you a pre-calculation of the real estate tax. You can change an incorrect data in the link below.",
+        "cta" : {
+            "title": "Pre-calculation of the real estate tax",
+            "description": "Your duty to pay real estate tax arose for you by acquiring real estate. This is a recalculation of the tax, the official assessment of the real estate tax will be stored in the electronic mailbox of the city of Bratislava in May 2021",
+            "estimatedAmount": "Estimated amount",
+            "moreInfo": "You can check and edit data of the pre-calculation of the tax at the following link: ",
+            "checkButton": "Check the data"
+        },
+        "smallPrint": "If the estimate is alright and you do not need to change the data, consider the matter resolved."
     }
 }

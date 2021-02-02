@@ -1,0 +1,5 @@
+{
+    "welcome": {
+        "title": "Vitajte v {{framework}}"
+    }
+}

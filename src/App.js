@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+import HeaderComponent from './HeaderComponent';
+
 function App() {
   return (
     <div className="App">
+      <HeaderComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

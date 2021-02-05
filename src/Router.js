@@ -1,7 +1,5 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import App from "./pages/App";
-import Email from "./pages/Email";
 import NotFound from "./pages/NotFound";
 import routes from './data/routes'
 

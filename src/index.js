@@ -5,6 +5,7 @@ import i18next from "i18next"
 import { I18nextProvider } from  "react-i18next";
 import GOVUKFrontend from "govuk-frontend/govuk/all.js";
 import './styles/unbranded.scss';
+import './styles/bratislava.scss';
 
 import SkipToMainContent from './components/SkipToMainContent';
 import LanguagePicker from './components/LanguagePicker';

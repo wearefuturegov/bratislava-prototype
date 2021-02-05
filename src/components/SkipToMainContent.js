@@ -3,7 +3,7 @@ import {useTranslation} from "react-i18next";
 
 function SkipToMainContentComponent()
 {
-    const [t] = useTranslation('common');
+    const [t, i18n] = useTranslation('common');
     return <a href="#main-content" className="govuk-skip-link">{t('helper.skipToMain')}</a>;
 }
 

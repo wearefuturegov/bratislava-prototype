@@ -1,13 +1,12 @@
 import React, {Suspense} from 'react';
 import {useTranslation} from "react-i18next";
+import ShowData from '../components/ShowData';
 import emailData from '../data/email';
-
-
 
 function PageComponent()
 {
     console.log(emailData);
-    const [t] = useTranslation('common');
+    const [t, i18n] = useTranslation('common');
     const {taxEstimationTotal} = emailData;
     return (
         <>
@@ -55,6 +54,9 @@ function Email()
     return (
         <Suspense fallback="loading">
             <PageComponent/>
+
+            <ShowData type="json" data={emailData} />
+            
         </Suspense>
     );
 }

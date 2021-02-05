@@ -7,7 +7,7 @@ import routes from './../data/routes'
 
 function NavigationComponent()
 {
-    const [t] = useTranslation('common');
+    const [t, i18n] = useTranslation('common');
     return (
         <nav>
             <ul id="navigation" className="govuk-list" aria-label="Navigation menu">

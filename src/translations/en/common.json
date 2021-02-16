@@ -1,6 +1,7 @@
 {
     "navigation": {
         "home": "Homepage",
+        "bill": "The Bill",
         "2-2": "P2.2 Email",
         "2-3": "P2.3 Online Bill",
         "2-4": "P2.4 Tax dept CMS",
@@ -25,5 +26,107 @@
             "checkButton": "Check the data"
         },
         "smallPrint": "If the estimate is alright and you do not need to change the data, consider the matter resolved."
+    }, 
+    "bill": {
+        "caseNumber": "Case number",
+        "taxAuthority": {
+            "title": "The tax authority",
+            "taxAdministrator": "Tax administrator",
+            "businessAddress": "Business address",
+            "name": "Name",
+            "email": "Email",
+            "telephone": "Telephone",
+            "location": "location?",
+            "date": "Date"
+        },
+        "resident": {
+            "fullName" : "Full name",
+            "permanantAddress" : "Permanant Address",
+            "taxIdentificationNo" : "Tax identification number"
+        },
+        "taxLawAndObligation": "The Capital of the Slovak Republic, Bratislava, as a tax administrator pursuant to Section 4 (1) of the Act €. 563/2009 Coll. on tax administration (tax administration) on the amendment and supplementation of certain acts as amended (hereinafter referred to as the \"Dah's Code\") in connection with Section 99 (1) and (3) of the Act on Local Taxes and Local Fee for Communine Waste and Small Construction Waste as amended by later regulations",
+        "decision": "Decision ¢.",
+        "dataAdministration": "Administration of data in y r u b u j e § 99e par. 1 of Law ¢. 582/2004 Coll. on local taxes and local fees for municipal waste and small construction waste, as amended (hereinafter only, Act *) and according to § 63 of the Dafovnik Code to the dahovnik (representative appointed by agreement of the co-owners)" ,
+        "propertyTaxIsAsFollows": "Property tax for 2020 as follows",
+        "landTax": {
+            "title": "Land Tax",
+            "subject": "Subject of the tax",
+            "landArea": "Land area in m2",
+            "taxBase": "Tax base",
+            "tax": "Tax EUR",
+            "A": "A - arable land, hop gardens, vineyards, orchards (§ 6 para. 1 letter a) of the Act)",
+            "B": "B - permanently grassland (§ 6 para. 1 letter a) of the Act)",
+            "C": "C - gardens (§ 6 par. 1 letter b) of the Act)",
+            "D": "D - forest lands on which there are commercial forests (§ 6 para. 1 letter d) of the Act)",
+            "E": "E - ponds with fish farming and other economically used water areas (§ 6 paragraph 1 letter d) of the Act)",
+            "F": "F - built-up areas and courtyards (§ 6 par. 1 letter c) of the Act)",
+            "G": "G - building land (§ 6 par. 1 letter e) of the Act)",
+            "H": "H - other areas (§ 6 par. 1 letter c) of the Act)"
+        },
+        "constructionTax": {
+            "title": "Construction tax",
+            "subject": "Subject of the tax",
+            "taxBase": "Tax base",
+            "tax": "Tax EUR",
+            "A": "A - residential buildings (§ 10 par. 1 letter a) of the Act)",
+            "B": "B - constructions for agricultural production (§ 10 par. 1 letter b) of the Act)",
+            "C": "C - cottages (§ 10 par. 1 letter c) of the Act)",
+            "D": "D - detached garages (§ 10 par. 1 letter d) of the Act)",
+            "E": "E - constructions of collective garages (§ 10 par. 1 letter e) of the Act)",
+            "F": "F - constructions of collective garages located underground (§ 10 par. 1 letter f) of the Act)",
+            "G": "G - industrial buildings (§ 10 par. 1 letter g) of the Act)",
+            "H": "H - buildings on ost. enterprise. and earnings. activity, storage and administration (§ 10 par. 1 letter h) of the Act)",
+            "I": "I - other constructions (§ 10 par. 1 letter i) of the Act)",
+            "J": "J - multipurpose building (§ 12 par. 6 of the Act)"
+        },
+        "apartmentTax": {
+            "title": "Apartment tax",
+            "subject": "Subject of the tax",
+            "taxBase": "Tax base",
+            "tax": "Tax EUR",
+            "A": "A - flat (§ 14 of the Act)",
+            "B": "B - non-residential space (§ 14 of the Act)"
+        },
+
+        "totalTax": {
+            "title": "Total real estate tax",
+            "totalSum": "1. Real estate tax rounded down to euro cents (sum of land tax, building tax and flat tax)",
+            "dueDate": "2. The tax administrator determined the due date of the real estate tax according to line 1 in accordance with § 99g par. 1 of the Act or maturity 'tax payment within the meaning of § 99g par. 2 laws in the following period of fine pinching:",
+            "firstInstallment": "the first installment within 15 days from the date of entry into force of the decision in the amount of:",
+            "secondInstallment": "second installment by 30.09.2020 in the amount of:",
+            "thirdInstallment": "third installment by 30.09.2020 in the amount of:"
+        },
+
+
+        "taxSubject": "The tax subject is obliged to pay the real estate tax to the account of the tax administrator IBAN: SK75 0900 0000 0053 5353 5353, SWIFT / BIC: GIBASKBX kept in Slovenská sporitelľna, as, or to the account number IBAN: SK31 7500 0000 0000 2574 7653 SWIFT / BIG: CEKOSKBX kept in Československá obchodná banka, as The payment must be marked as follows: constant symbol 8147, variable symbol 3120076186. According to § 99g par. 1 of the Act obliged to pay the tax no later than 15 days from the date of validity of the decision and payment of the tax according to § 99g par. 2 of the Act no later than in the period of their maturity to the said account of the tax administrator.",
+
+        "justification": "Justification",
+        "justificationPara": "Real estate tax was levied on the basis of the filed real estate tax return, documents and facts ascertained by the tax administrator in accordance with Act no. 582/2004 Coll., On local taxes and local fees for municipal waste and small construction waste, as amended, the Tax Code and according to the generally binding regulation of the capital of the Slovak Republic, Bratislava no. 13/2019 on real estate tax. The real estate tax rates valid in the territory of Bratislava for 2020 and the method of calculating the real estate tax for 2020 were determined by the tax administrator in accordance with the law ($ 8, $ 12 and $ 16 of the Act) in the generally binding regulation of the Slovak capital Bratislava no. 13/2019, effective from 1.1.2020 (land tax in § 3 VZN No. 13/2019, tax on constructions in §5 VZN No. 13/2019 and tax on flats in $ 7 VZN No. 13/2019).",
+
+        "instruction": "Instruction: It is possible to file an appeal against this decision according to § 72 par. 2, 3 and 4 of the Tax Code within 30 days from the date of its delivery to the tax administrator, which is the Capital of the Slovak Republic Bratislava, at the Magistrate of the Capital of the Slovak Republic Bratislava, Department of Local Taxes, Fees and Licenses, Blagoevova no. 9, P.O. Box 76, 850 05 Bratislava 55. According to § 72 par. 7 of the Tax Code has a suspensive effect.",
+
+        "howToPay": "You will pay the real estate tax in person at Slovak Post branches or via a QR code via internet banking",
+
+
+        "howWeUseYourMoney": "The City of Bratislava will be repairing more roads, sidewalks and public spaces this year thanks to real estate tax revenue. Thanks to higher revenues, the city will be able to repair an additional 45 Rm lanes in 2020, for example. In addition, more than 30 other projects are to be implemented from the money raised, which will improve the quality of public space in Bratislava.",
+
+        "howWeUseYourMoneyP2": "At this point, we planned to provide a binding list of all the roads, sidewalks and public spaces that we will repair with this money during 2020. However, the consequences of the crisis caused by the new coronavirus force us to reconsider the priorities for many urban projects. The final list of projects together with the deduction of their implementation will therefore be continuously updated on the website www.bratislava2020.sk.",
+
+        "howWeUseYourMoneyP3": "Please follow this page to find out how real estate tax funding will help improve transport infrastructure and beautify our city. www.bratislava2020.sk",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "total": "Celkom"
     }
 }

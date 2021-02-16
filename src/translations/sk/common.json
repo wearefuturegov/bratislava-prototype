@@ -16,5 +16,101 @@
             "checkButton": "Skontrolovať údaje"
         },
         "smallPrint": "Ak predpokladaná suma sedí a nepotrebujete meniť údaje na výmere, považujte vec za vyriešenú. "
+    }, 
+    "bill": {
+        "caseNumber": "Číslo konania",
+        "taxAuthority": {
+            "taxAdministrator": "Spravca dane",
+            "businessAddress": "Vybavuje",
+            "name": "Meno",
+            "email": "Mail",
+            "telephone": "Telefon",
+            "location": "?",
+            "date": "Dňa"
+        },
+        "resident": {
+            "fullName" : "Meno a priezvisko",
+            "permanantAddress" : "Adresa trvaiého pobytu",
+            "taxIdentificationNo" : "Identifikator danovnika"
+        },
+        "taxLawAndObligation": "Hlavné mesto Slovenskej republiky Bratislava ako spravca dane podla § 4 ods.1 zakona €. 563/2009 Z. z. o sprave dani (danovy poriadok) a o zmene a dopineni niektorych zakonov v zneni neskorSich predpisov (dalej len ,dahovy poriadok\") v nadvaznosti na § 99 ods. 1 a 3 zakona €. Z. z. o miestnych daniach a miestnom poplatku za komunaine odpady a drobné stavebné odpady v zneni neskorSich predpisov vydava",
+        "decision": "rozhodnutie č.",
+        "dataAdministration": "Správca dane vyrubuje § 99e ods. 1 zakona Č. 582/2004 Z. z. o miestnych daniach a miestnom poplatku za komunálne odpady a drobné stavebné odpady v znení neskoršich predpisov (ďalej len \"zákon\") a podla § 63 daňového poriadku daňovníkovi (zástupcovi určenému dohodou spoluvlastníkov)" ,
+        "propertyTaxIsAsFollows": "dan z nehnutelnosti na rok 2020 je nasledovná",
+        "landTax": {
+            "title": "Daň z pozemkov",
+            "subject": "Predmet dane",
+            "landArea": "Vymera pozemku v m2",
+            "taxBase": "Zaklad dane",
+            "tax": "Daň EUR",
+            "A": "A - orna poda, chmel'nice, vinice, ovocne sady ( § 6 ods. 1 pism. a) zakona)",
+            "B": "B - trvale travnate porasty (§ 6 ods. 1 pism. a) zakona)",
+            "C": "C - zahrady (§ 6 ods. 1 pism. b) zakona)",
+            "D": "D - lesne pozemky, na ktorych su hospodarske lesy (§ 6 ods. 1 pism. d) zakona)",
+            "E": "E - rybniky s chovom ryb a ostatne hospodarsky vyuzivane vodne plochy (§ 6 ods. 1 pism. d) zakona)",
+            "F": "F - zastavane plochy a nadvoria (§ 6 ods. 1 pism. c) zakona)",
+            "G": "G - stavebne pozemky (§ 6 ods. 1 pism. e) zakona)",
+            "H": "H - ostatne plochy (§ 6 ods. 1 pism. c) zakona)"
+        },
+        "constructionTax": {
+            "title": "Daň zo stavieb",
+            "subject": "Predmet dane",
+            "taxBase": "Zaklad dane",
+            "tax": "Daň EUR",
+            "A": "A - stavby na byvanie (§ 10 ods. 1 pism. a) zakona)",
+            "B": "B - stavby na pôdohospodarsku produkcui  (§ 10 ods. 1 pism. b) zakona)",
+            "C": "C - chaty  (§ 10 ods. 1 pism. c) zakona)",
+            "D": "D - samostatne stojace garáže  (§ 10 ods. 1 pism. d) zakona)",
+            "E": "E - stavby hromadnych garaze  (§ 10 ods. 1 pism. e) zakona)",
+            "F": "F - stavby hromadnych garaze umiestnene pod zemou  (§ 10 ods. 1 pism. f) zakona)",
+            "G": "G - priemyselne stavby  (§ 10 ods. 1 pism. g) zakona)",
+            "H": "H - stavby na ost. podnik. a zárobk. činnost, skladovanie a administrativu  (§ 10 ods. 1 pism. h) zakona)",
+            "I": "I - ostatné stavby  (§ 10 ods. 1 pism. i) zakona)",
+            "J": "J - viacucelova stavba  (§ 12 ods. 6 zakona)"
+        },
+        "apartmentTax": {
+            "title": "Daň z bytov",
+            "subject": "Predmet dane",
+            "taxBase": "Zaklad dane",
+            "tax": "Daň EUR",
+            "A": "A - byt (§ 14 zakona)",
+            "B": "B - nebytovy priestor  (§ 14 zakona)"
+        },
+
+
+
+
+        "totalTax": {
+            "title": "Daň z nehnutel'nosti celkom",
+            "totalSum": "1. Daň z nehnutel'nosti zaokruhlena na eurocenty nadol (sucet dane z pozemkov, dane zo stavieb a dane z bytov)",
+            "dueDate": "2. Spravca dane urcil splatnost dane z nehnutel'nosti podl'a riadku 1 v zmysle § 99g ods. 1 zakona alebo splatnost' splatok dane v zmysle § 99g ods. 2 zakona v nasledovnej lehote pefiazného pinenia:",
+            "firstInstallment": "prva splatka v termine do 15 dni odo dna nadobudnutia pravoplatnosti rozhodnutia v sume:",
+            "secondInstallment": "druha splatka v termine do 30.09.2020 v sume:",
+            "thirdInstallment": "tretia splatka v termine do 30.09.2020 v sume:"
+        },
+
+
+
+        "taxSubject": "Daňový subjekt je povinný daň z nehnuteľnosti uhradiť na účet správcu dane IBAN: SK75 0900 0000 0053 5353 5353, SWIFT/BIC: GIBASKBX vedený v Slovenskej sporitelľni, a.s., alebo na čislo účtu IBAN: SK31 7500 0000 0000 2574 7653 SWIFT/BIG: CEKOSKBX vedený v Československej obchodnej banke, a.s. Platbu treba označiť nasledovne: konštantný symbol 8147, variabilný symbol 3120076186. Daňový subjekt je podľa § 99g ods. 1 zákona povinný zaplatiť daň najneskör do 15 dní odo dňa právoplatnosti rozhodnutia a splátky dane podľa § 99g ods. 2 zákona najneskör v lehote ich splatnosti na uvedený účet správcu dane.",
+
+        "justification": "Odôvodnenie",
+        "justificationPara": "Daň z nehnuteľnosti bola vyrubená na základe podaného priznania k dani z nehnuteľnosti, dokladov a skutočnosti zistených správcom dane v zmysle zákona č. 582/2004 Z. z.o miestnych daniach a miestnom poplatku za komunálne odpady a drobné stavebné odpady v zneni neskoršich predpisov, dañového poriadku a podľa všeobecne záväzného nariadenia hlavného mesta Slovenskej republiky Bratislavy č. 13/2019 o dani z nehnuteľnosti. Sadzby dane z nehnuteľností platné na území Bratislavy na rok 2020 a spôsob výpočtu dane z nehnuteľnosti na rok 2020 správca dane určil v súlade so zákonom ($ 8, $ 12 a $ 16 zákona) vo všeobecne záväznom nariadeni hlavného mesta Slovenskej republiky Bratislavy č. 13/2019, účinnom od 1.1.2020 (daň z pozemkov v § 3 VZN č. 13/2019, dañ zo stavieb v§5 VZN č. 13/2019 a daň z bytov v $7 VZN č. 13/2019).",
+
+        "instruction": "Poučenie: Proti tomuto rozhodnutiu je možnė podať odvolanie podľa § 72 ods. 2, 3 a 4 daňového poriadku v lehote do 30 dní odo dňa jeho doručenia u správcu dane, ktorým je Hlavné mesto Slovenskej republiky Bratislava, na Magistrăte hlavného mesta Slovenskej republiky Bratislavy, oddelenie miestnych dani, poplatkov a licencii, Blagoevova č. 9, P.O. Box 76, 850 05 Bratislava 55. Včas podané odvolanie má podľa § 72 ods. 7 daňového poriadku odkladný účinok.",
+
+        "howToPay": "Daň z nehnutelností zaplatíte osobne v pobočkách Slovenskej pošty alebo prostredníctvom QR kódu cez internet banking",
+
+
+        "howWeUseYourMoney": "Mesto Bratislava bude tento rok aj vdaka príjmom z dane z nehnuteľností opravovať viac ciest, chodníkov a verejných priestorov. Vdaka vyšším príjmom bude môcť mesto napríklad v roku 2020 opraviť dodatočných 45 Rm jazdných pruhov ciest. Z navyše získaných peňazí má byt realizo- vaných aj ďalších viac ako 30 projektov, ktoré skvalitnia verejný priestor v Bratislave.",
+
+        "howWeUseYourMoneyP2": "Na tomto mieste sme plánovali uviesť záväzný zoznam všetkých ciest, chodníkov a verejných priestorov, ktoré z týchto peňazí opravíme počas roku 2020. Dôsledky krízy spôsobenej novým koronavírusom nás však nútia v prípade mnohých mestských projektov prehodnotiť priority. Definitívny zoznam projektov spolu s odpočtom ich plnenia bude preto priebežne aktualizovaný na stránke www.bratislava2020.sk.",
+
+        "howWeUseYourMoneyP3": "Sledujte, prosím, túto stranku a dozviete sa, ako financie z dane z nehnuteľností pomôžu zlepšiť dopravnú infraštruktúru a skrášliť naše mesto. www.bratislava2020.sk",
+
+
+        "total": "Total"
+
     }
 }
+
+

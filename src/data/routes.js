@@ -1,5 +1,6 @@
 import App from "../pages/App";
 import Email from "./../pages/Email";
+import Bill from "./../pages/Bill";
 
 const routes = [{
     titleKey: "navigation.home",
@@ -11,6 +12,11 @@ const routes = [{
     path: "/email",
     exact: true,
     component: Email
+}, {
+    titleKey: "navigation.bill",
+    path: "/bill",
+    exact: true,
+    component: Bill
 }, ];
 
 export default routes;

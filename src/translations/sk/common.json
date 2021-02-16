@@ -18,6 +18,7 @@
         "smallPrint": "Ak predpokladaná suma sedí a nepotrebujete meniť údaje na výmere, považujte vec za vyriešenú. "
     }, 
     "bill": {
+        "theBill": "Rozhodnutie",
         "caseNumber": "Číslo konania",
         "taxAuthority": {
             "taxAdministrator": "Spravca dane",
@@ -25,9 +26,9 @@
             "name": "Meno",
             "email": "Mail",
             "telephone": "Telefon",
-            "location": "?",
-            "date": "Dňa"
+            "location": "?"
         },
+        "date": "Dňa",
         "resident": {
             "fullName" : "Meno a priezvisko",
             "permanantAddress" : "Adresa trvaiého pobytu",
